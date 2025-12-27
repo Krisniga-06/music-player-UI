@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.song-title {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 15px;
+}
